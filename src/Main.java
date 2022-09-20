@@ -39,15 +39,12 @@ public class Main {
         var boxerTwo = 82.7;
         var totalWeight = boxerOne + boxerTwo;
         System.out.println("Общий вес двух бойцов " + totalWeight + " кг.");
-        var weightDifference = boxerOne - boxerTwo;
+        var weightDifference = boxerTwo - boxerOne;
         System.out.println("Разница между весами бойцов " + weightDifference + " кг.");
         // задача 7
-        var sportsman1 = 84;
-        var sportsman2 = 79;
-        var weightDifference1 = sportsman1 - sportsman2;
-        System.out.println(weightDifference1);
-        var weightDifference2 = sportsman1 % sportsman2;
-        System.out.println(weightDifference2);
+        System.out.println("Разница между весами бойцов " + weightDifference + " кг. (1 способ)");
+        var weightDifference1 = boxerTwo % boxerOne;
+        System.out.println("Разница между весами бойцов " + weightDifference1 + " кг. (2 способ)");
         // задача 8
         var totalTime = 640;
         var everyEmployee = 8;
